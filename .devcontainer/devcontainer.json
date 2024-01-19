@@ -1,12 +1,11 @@
 {
-"build":{
-    "dockerfile": "Dockerfile"
+    "build":{
+        "dockerfile": "Dockerfile"
 
-},
+    },
 
-"updateContentCommand": "nmp install",
-"postAttachCommand": "npm start",
-
-"remoteUser": "node"
-
+    "updateContentCommand": "nmp install",
+    "postAttachCommand": "npm start",
+    
+    "remoteUser": "node"
 }
