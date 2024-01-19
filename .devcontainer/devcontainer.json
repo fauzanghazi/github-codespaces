@@ -4,7 +4,7 @@
 
     },
 
-    "updateContentCommand": "nmp install",
+    "updateContentCommand": "npm install",
     "postAttachCommand": "npm start",
     
     "remoteUser": "node"
